@@ -3,7 +3,29 @@ Flight Management System
 A Java-based Spring Boot application for managing flight-related operations such as booking, passengers, tickets, payments, and crew management. This project provides a RESTful API for a backend flight management solution with layered architecture (Controller-Service-DAO)
 
 
-<pre> ```text Flight_Management_System/ ├── src/ │ ├── main/ │ │ ├── java/com/project/flight_management_system/ │ │ │ ├── controller/ # REST controllers │ │ │ ├── dao/ # Data access objects │ │ │ ├── dto/ # Data Transfer Objects │ │ │ ├── exception/ # Exception handling │ │ │ ├── repo/ # Spring Data JPA repositories │ │ │ ├── service/ # Business logic │ │ │ ├── util/ # Utility classes │ │ │ └── FlightManagementSystemApplication.java # Main class │ ├── resources/ │ │ └── application.properties ├── test/ │ └── java/com/project/flight_management_system/ # Unit & Integration Tests ├── pom.xml # Maven dependencies └── README.md # Project documentation ``` </pre>
+Flight_Management_System/
+│
+├── src/
+│   ├── main/
+│   │   ├── java/
+│   │   │   └── com/project/flight_management_system/
+│   │   │       ├── controller/           # REST controllers
+│   │   │       ├── dao/                  # Data access objects
+│   │   │       ├── dto/                  # Data Transfer Objects
+│   │   │       ├── exception/            # Exception handling
+│   │   │       ├── repo/                 # Spring Data JPA repositories
+│   │   │       ├── service/              # Business logic layer
+│   │   │       ├── util/                 # Utility/helper classes
+│   │   │       └── FlightManagementSystemApplication.java  # Main Spring Boot class
+│   │   └── resources/
+│   │       └── application.properties    # App configuration
+│
+├── test/
+│   └── java/com/project/flight_management_system/  # Unit and integration tests
+│
+├── pom.xml       # Maven build file
+└── README.md     # Project documentation
+
 
 
 Technologies Used
